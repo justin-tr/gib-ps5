@@ -307,7 +307,7 @@ window.gibinit = function() {
     PRODUCT_UPC:    detectUPC(),
     PRODUCT_TITLE:  detectProductName(),
 
-    refreshSeconds: window.gibRetailer == 'gamestop' ? 60 : 4,
+    refreshSeconds: window.gibRetailer == 'gamestop' ? 60 : 2,
 
     createElement: function(tag, id, styles) {
       var node = document.createElement(tag);
